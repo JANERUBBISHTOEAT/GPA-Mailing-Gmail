@@ -164,10 +164,6 @@ PLEASE CHECK TWICE\n")
     _To   =  input("To (Recipitent Nickname): ").strip()
     _Subject=input("Subject: ").strip()
     my_user =input("Your Email Please (For testing):\n").strip()
-    # _From = "UofT GPA"
-    # _To = "admin"
-    # _Subject = "hej world"
-    # my_user = "zheyuan.wei2003@gmail.com"
 
     email_info = []
     email_info.append(my_user)
