@@ -12,9 +12,6 @@ SEPERATOR = "#"
 _ENCODING = "utf-8"
 SENT_MARK = "SENT"
 
-# my_sender= input('Sender Email: ')
-# my_pass  = input('Password: ')
-
 # Constants
 LOGIN__ERR = "Login Failed"
 ALL_GOOD   = "All Good"
@@ -143,7 +140,7 @@ if __name__ == "__main__":
         result = mass_mail(email_info, attach_dir_list)
 
         # # Activity Monitoring
-        # email_info[0]  = 'zheyuan.wei@mail.utoronto.ca'
+        # email_info[0]  = 'your_email'
         # email_info[1]  = email_info[1] + \
         #                 "|Total: " + str(cnt) + \
         #                 "|Ignored: " + str(result[0]) + \
